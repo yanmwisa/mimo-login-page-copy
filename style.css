@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(39, 34, 66);
+    text-align: center;
+    color: white;
+    display: flex; /* Changed from block to flex to center children */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center children vertically */
+    align-items: center; /* Center children horizontally */
+    height: 100vh; /* Changed from 300vh to 100vh to fit the viewport */
+    font-size: 25px; /* Reduced the font size for better readability */
+}
+
+h1, h3 {
+    color: white; /* Ensure headers are also white */
+}
+
+.identifiant input {
+    width: 400px; /* Set a width to the inputs */
+    max-width: 600px; /* Max width for larger screens */
+    border-radius: 10px;
+    margin: 5px auto; /* Center the input fields */
+    padding: 15px;
+    border: none; /* Removed dotted border for a cleaner look */
+    background-color: rgb(52, 49, 76); /* Slightly lighter than the body for contrast */
+    color: white; /* Set text color to white for visibility */
+    font-size: 16px; /* Set to same as body for consistency */
+    
+}
+
+button {
+    border-radius: 10px;
+    margin: 10px auto; /* Center the button */
+    padding: 15px;
+    border: none; /* Removed dotted border for a cleaner look */
+    background-color: #7C5AC2; /* Styled to stand out */
+    color: white; /* Set text color to white for visibility */
+    font-size: 16px; /* Set to same as body for consistency */
+    cursor: pointer; /* Change cursor on hover to indicate clickability */
+    width: 425px; /* Match input width */
+    max-width: 600px; /* Max width for larger screens */
+    
+ 
+  
+}
+
+.account a {
+    display: inline-block; /* Changed from inline to inline-block for padding */
+    border: none; /* Removed border for a cleaner look */
+    text-decoration: none;
+    margin: 5px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    padding: 8px 16px; /* Added padding for a better button-like appearance */
+    font-size: 20px; /* Set to same as body for consistency */
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+}
+
+.para a {
+    color: white; /* Ensure link color is white for visibility */
+    font-size: 20px; /* Set to same as body for consistency */
+    text-decoration: underline; /* Optional: underline links for clarity */
+}
+
+.para {
+    font-size: 20px; /* Set to same as body for consistency */
+}
